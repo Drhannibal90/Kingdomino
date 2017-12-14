@@ -9,11 +9,23 @@ public class Model {
     int[] placeYJoueur1;
     int[] placeXJoueur2;
     int[] placeYJoueur2;
+    private final int POSXCHATEAU = 450;
+    private final int POSYCHATEAU = 300;
+    private final int TAILLECHATEAU = 73;
 
     int joueur;
 
+    public int getTAILLECHATEAU() {
+        return TAILLECHATEAU;
+    }
 
+    public int getPOSXCHATEAU() {
+        return POSXCHATEAU;
+    }
 
+    public int getPOSYCHATEAU() {
+        return POSYCHATEAU;
+    }
     /*  valeur plateau
         0= rien
         1= chateau

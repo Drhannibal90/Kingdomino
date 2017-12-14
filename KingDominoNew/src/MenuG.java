@@ -13,7 +13,7 @@ public class MenuG extends JPanel {
 
     public MenuG(Image img){
         imgBg = img;
-        ImageIcon imgTmp = new ImageIcon("header.png");
+        ImageIcon imgTmp = new ImageIcon("img/header.png");
         imgHeader = resizePicture(imgTmp, 400,200).getImage();
         JButton b = new JButton("Commencer la partie");
         JTextField j1 = new JTextField("Joueur 1");

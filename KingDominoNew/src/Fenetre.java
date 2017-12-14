@@ -74,7 +74,7 @@ public class Fenetre extends JFrame {
             setContentPane(imagePlateau);
             revalidate();
             this.imagePlateau.repaint();
-            setSize(1000,800);
+            setSize(1200,850);
 
         }else{
             ImageIcon imageIcon =new ImageIcon( "img/bg.jpg");
@@ -170,6 +170,10 @@ public class Fenetre extends JFrame {
 
     public JPanel getImageMenu() {
         return imageMenu;
+    }
+
+    public void setControlMove(ControlMouse controlMouse) {
+        imagePlateau.addMouseMotionListener(controlMouse);
     }
 
 
